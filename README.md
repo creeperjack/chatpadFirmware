@@ -1,4 +1,4 @@
-# -chatpadFirmware
+# XBOX chatpad alternative Firmware
 Firmware for XBOX360 chatpad, it's a small keypad normally mounted on XBOX360 game controllers for chat. It features quite complete keyboard and has backlight.<br>
 It can be used 'as is' but keys not correspond to letters and it should be used with a complex library to get around the limitations. There's also some limitations about backlight and serial speed.<br>
 This firmware mod will allow:<br>
