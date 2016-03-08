@@ -29,4 +29,5 @@ currently features for version 1.0:<br>
 - Any special button will not write any serial (DONE)
 - 8Mhz instead of 4Mhz (almost done)
 - Very low sleep mode, Sleep mode already in but this will allow tiny consume.
+- Written almost entirely in ASM.
 To be continued...
