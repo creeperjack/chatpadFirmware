@@ -16,5 +16,17 @@ commands recognized by chatpad (preliminary):<br>
 - 3: turns ON chatpad backlight DIMMED 30%
 - 4: turns ON chatpad backlight full
 - 5: turns AUTOFADE on
-- 6: return * (for testing)
+- 6: return * (for testing)<br>
+
+currently features for version 1.0:<br>
+- Autobaud sensing, need's just a serial call once and it will follow the speed.
+- Standard ASCII plus extended one, no need of any library.
+- 1200baud to 115200 baud communication
+- Uses only 2 wires (plus supply)
+- Backlight with Fade Out and many modes.
+- Automatic Sleep function with serial backup.
+- Special chars for <- ->, this allow microcontroller users to use for navigation
+- Any special button will not write any serial (DONE)
+- 8Mhz instead of 4Mhz (almost done)
+- Very low sleep mode, Sleep mode already in but this will allow tiny consume.
 To be continued...
