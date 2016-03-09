@@ -22,6 +22,7 @@ commands recognized by chatpad (preliminary):<br>
 
 currently features planned for version 1.0:<br>
 - Autobaud sensing, need's just a serial call once (car 'U') and it will follow the speed.(TODO)
+- Debounce to prevent multiple outs. (DONE)
 - Standard ASCII plus extended one, no need of any library.(DONE)
 - 4800 baud to 115200 baud communication. (DONE)
 - Uses only 2 wires (plus supply), 1 wire if you don't need control backlight. (DONE)
