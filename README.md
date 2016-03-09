@@ -20,16 +20,17 @@ commands recognized by chatpad (preliminary):<br>
 - char 0x9F: disable keypad config
 - 6: return * (for testing)<br>
 
-currently features for version 1.0:<br>
-- Autobaud sensing, need's just a serial call once and it will follow the speed.
-- Standard ASCII plus extended one, no need of any library.
-- 1200baud to 115200 baud communication
-- Uses only 2 wires (plus supply)
-- Backlight with Fade Out and many modes.
-- Automatic Sleep function with serial backup.
-- Special chars for <- ->, this allow microcontroller users to use for navigation
-- Any special button will not write any serial (DONE)
-- 8Mhz instead of 4Mhz (almost done)
-- Very low sleep mode, Sleep mode already in but this will allow tiny consume.
-- Written almost entirely in ASM.
+currently features planned for version 1.0:<br>
+- Autobaud sensing, need's just a serial call once (car 'U') and it will follow the speed.(TODO)
+- Standard ASCII plus extended one, no need of any library.(DONE)
+- 4800 baud to 115200 baud communication. (DONE)
+- Uses only 2 wires (plus supply), 1 wire if you don't need control backlight. (DONE)
+- Backlight with Fade Out and other modes controlled by serial, autofade on at startup. (DONE)
+- Automatic Sleep function with serial wakeup. (DONE)
+- Special chars for <- ->, for easy use in microcontrollers. (TODO)
+- Configuration mode from keypad (disable dy default) enabled by serial, will be saved in EEPROM. (DONE)
+- Any special button will not trasmitted to output as the original. (DONE)
+- 8Mhz instead of 4Mhz. (DONE)
+- Very low sleep mode, Sleep mode already in but this will allow tiny consume. (TODO)
+- Written almost entirely in ASM.<br>
 To be continued...
