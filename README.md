@@ -34,4 +34,9 @@ currently features planned for version 1.0:<br>
 - 8Mhz instead of 4Mhz. (DONE)
 - Very low sleep mode, Sleep mode already in but this will allow tiny consume. (TODO)
 - Written almost entirely in ASM.<br>
+
+ What you need:<br>
+ Of course an XBOX 360 chatpad, it's easy to find on ebay for very low price. Tou need also a PIC programmer, I have used 
+ a USB PICKIT3 chinese clone very cheap, you will need also the Atmel Programming Environment v.3.26 that it's free downloadable from Microchip. First you have to disassemble the chatpad (figure will coming) and solder some wires to connect the programmer and set for PICF883, set the programmer VDD (by entering in advanced mode, pass 'microchip') at 3.25V, press 'connect', select my firmware and press 'program'. If everithing goes ok you have to disconnect programmer and connect the 4 wires of the original cable as follow:RED(+3V3),TRASPARENT(GROUND),BLACK(to RX of your microcontroller), MAROON(to TX of your microcontroller), create a simple sketch where you can confirm that chatpad it's working correctly (press 1 should be 1 on your microcontroller and so on).<br><br>
+
 To be continued...
