@@ -11,11 +11,13 @@ Chatpad uses PIC16F883 with internal xtal at 4Mhz, I have used MPLAB to rewrote 
 
 commands recognized by chatpad (preliminary):<br>
 - 0: turns OFF chatpad backlight
-- 1: turns ON chatpad backlight DIMMED 80%
-- 2: turns ON chatpad backlight DIMMED 50%
-- 3: turns ON chatpad backlight DIMMED 30%
-- 4: turns ON chatpad backlight full
+- 1: turns ON  chatpad backlight DIMMED 80%
+- 2: turns ON  chatpad backlight DIMMED 50%
+- 3: turns ON  chatpad backlight DIMMED 30%
+- 4: turns ON  chatpad backlight full
 - 5: turns AUTOFADE on
+- char 0x9E: enable keypad config
+- char 0x9F: disable keypad config
 - 6: return * (for testing)<br>
 
 currently features for version 1.0:<br>
