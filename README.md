@@ -3,6 +3,8 @@ Firmware for XBOX360 chatpad, it's a small keypad normally mounted on XBOX360 ga
 It can be used 'as is' but keys not correspond to letters and it should be used with a complex library to get around the limitations. There's also some limitations about backlight and serial speed.<br>
 This firmware mod will allow:<br>
 
+<b>ATTENTION:</b> This works >ONLY< with the original 'Microsoft' chatpad, NOT the chinese clone!!!! In ebay there's a lot of chinese clone, you have to be sure it's Microsoft or you'll get a piece of junk1<br>
+
 - Backlight selectable from serial, autofade with timer also available.
 - Correct char map, no need of conversion and library, work 'as is'.
 - works with any processor with TTL (3V3) level serial, initial at 9600baud.
